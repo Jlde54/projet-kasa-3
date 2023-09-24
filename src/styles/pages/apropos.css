@@ -1,0 +1,16 @@
+.apropos {
+    font-size: 50px;
+    text-align: center;
+    margin: 80px 0;
+}
+.collapse {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+.collapse .dropdown {
+      width: 100%;
+}

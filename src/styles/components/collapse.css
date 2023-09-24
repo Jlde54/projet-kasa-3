@@ -1,0 +1,9 @@
+.collapse h2 {
+    font-size: 24px;
+    background-color: #FF6060;
+    color: white;
+}
+.collapse p {
+    font-size: 16px;
+    color : #FF6060;
+}

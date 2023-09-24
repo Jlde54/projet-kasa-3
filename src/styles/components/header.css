@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 80px;
+    height: 68px;
+}
+.nav {
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 40px;
+}
+.nav a {
+    text-decoration: none;
+    color: #ff6060;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav link-active {
+    text-decoration: underline;
+}
+.nav link-inactive {
+    text-decoration: none;
+}
