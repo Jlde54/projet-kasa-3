@@ -6,10 +6,10 @@ import '../styles/pages/accueil.css'
 
 function Accueil() {
   return (
-    <div>
+    <>
         <Banner image={AccueilImage} altText="Banner" text="Chez vous, partout et ailleurs"/>
         <Gallery />
-    </div>
+    </>
   )
 }
 

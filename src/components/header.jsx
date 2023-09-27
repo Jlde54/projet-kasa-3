@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import logo from '../assets/images/LogoKasa.png'
 import '../styles/components/header.css'
 
@@ -10,10 +10,10 @@ function Header() {
         <nav>
           <ul className="nav">
             <li>
-              <Link to="/">Accueil</Link>
+              <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/" >Accueil</NavLink>
             </li>
             <li>
-              <Link to="/apropos">A propos</Link>
+              <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to="/apropos">A propos</NavLink>
             </li>
           </ul>
         </nav>

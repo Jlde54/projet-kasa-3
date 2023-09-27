@@ -2,17 +2,32 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-}
-.rental_title {
-    color: #FFFFFF;
-    margin-top: 10px;
-    margin-left: 5px;
-    line-height: 20px;
+    height: 100%;
+    position: relative;
 }
 .rental img {
     width: 100%;
-    height: 180px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    height: 100%;
+    border-radius: 10px;
+    border-radius: 25px;
     object-fit: cover;
+}
+.rental_overlay {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5) 100%);
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.rental_title {
+    color: #FFFFFF;
+    /* margin-top: 10px;
+    margin-left: 5px; */
+    margin: 10px 5px 0px 5px;
+    line-height: 20px;
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    bottom : 10px;
 }

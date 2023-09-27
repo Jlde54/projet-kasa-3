@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 80px;
+    margin: 40px 60px;
     height: 68px;
 }
 .nav {
@@ -20,9 +20,6 @@
     font-weight: 500;
     cursor: pointer;
 }
-.nav link-active {
-    text-decoration: underline;
-}
-.nav link-inactive {
-    text-decoration: none;
+.nav .active {
+    border-bottom: 1px solid #ff6060;
 }

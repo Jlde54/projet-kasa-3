@@ -7,20 +7,20 @@ import Collapse from '../components/collapse'
 
 function Apropos() {
     return (
-      <div>
+      <>
         <Banner image={AproposImage} altText="Banner" text=""/>
         <div className="collapse">
           <div className="dropdown">
             {Collapses.map((item) => {
                 return (
-                  <div key={item.id}>
+                  <div key={item.id} className="collapse-item">
                     <Collapse content={item.content} title={item.title} />
                   </div>
                 )
                 })}
           </div>
         </div>
-      </div>
+      </>
     )
 }
   
