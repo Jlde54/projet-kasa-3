@@ -3,6 +3,7 @@
     justify-content: space-between;
     background-color: #FF6060;
     align-items: center;
+    border-radius: 5px;
 }
 .collapseTitle img {
     width: 25px;
@@ -18,6 +19,8 @@
 .collapse p {
     font-size: 16px;
     color : #FF6060;
-    margin-top: 20px;
-    padding: 0 15px;
+    padding: 15px;
+    background-color: rgb(244, 241, 241);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }

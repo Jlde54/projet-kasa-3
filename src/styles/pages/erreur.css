@@ -1,5 +1,20 @@
-.erreur {
-    font-size: 50px;
+.error {
     text-align: center;
     margin: 80px 0;
+}
+.error-title {
+    font-size: 200px;
+    color: #FF6060;
+}
+.error-subtitle {
+    margin-top: 80px;
+    font-size: 36px;
+    color: #FF6060;
+}
+.error-link {
+    margin-top: 80px;
+}
+.error-link a {
+    font-size: 18px;
+    color: #FF6060;
 }
