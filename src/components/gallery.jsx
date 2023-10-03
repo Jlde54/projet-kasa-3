@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import '../styles/components/gallery.css'
 import Logements from '../data/fiches_logement.json'
-import Rental from "./rental"
+import Card from "./card"
 
 function Gallery() {
     return (
@@ -10,10 +10,9 @@ function Gallery() {
             {Logements.map((logement) => {
                 return (
                     <article key={logement.id}>
-                        {/* <Link to={`/fichelogement/${logement.id}`}> */}
-                        <Link to="/fichelogement">
-                            <Rental image={logement.cover} title={logement.title} />
-                        </Link>
+                        <NavLink to={`/fichelogement/${logement.id}`}>
+                            <Card image={logement.cover} title={logement.title} />
+                        </NavLink>
                     </article>
                 );
             })}

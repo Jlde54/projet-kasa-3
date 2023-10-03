@@ -3,23 +3,56 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 60px;
+    margin: 50px 100px;
+}
+.header img {
     height: 68px;
 }
-.nav {
+.header .nav {
     display:flex;
     flex-direction: row;
     list-style: none;
-    gap: 40px;
+    gap: 50px;
 }
-.nav a {
+.header .nav a {
     text-decoration: none;
     color: #ff6060;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
+    /* font-style: normal; */
+    /* font-weight: 500; */
     cursor: pointer;
 }
-.nav .active {
+.header .nav .active {
     border-bottom: 1px solid #ff6060;
+}
+
+@media (width <= 768px) {
+    .header {
+        margin: 35px;
+    }
+    .header img {
+        height: 57px;
+    }
+    .header .nav {
+        gap: 20px;
+    }
+    .header .nav a {
+        font-size: 18px;
+    }
+    
+}
+
+@media (width <= 450px) {
+    .header {
+        margin: 20px;
+    }
+    .header img {
+        height: 47px;
+    }
+    .header .nav {
+        gap: 20px;
+    }
+    .header .nav a {
+        font-size: 12px;
+    }
 }

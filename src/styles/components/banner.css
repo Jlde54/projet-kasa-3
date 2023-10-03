@@ -6,6 +6,7 @@
     height: 210px;
     border-radius: 25px;
     position: relative;
+    animation : fadein 1s;
 }
 .banner-img {
     width: 100%;
@@ -28,4 +29,12 @@
     font-weight: 500;
     position: absolute;
     z-index: 2;
+}
+
+@media (width <= 768px) {
+
+}
+
+@media (width <= 375px) {
+    
 }

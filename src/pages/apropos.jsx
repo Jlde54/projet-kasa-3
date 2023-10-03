@@ -9,14 +9,10 @@ function Apropos() {
     return (
       <>
         <Banner image={AproposImage} altText="Banner" text=""/>
-        <div className="collapse">
-          <div className="dropdown">
+        <div className="aproposDescription">
+          <div className="aproposDropdown">
             {Collapses.map((item) => {
-                return (
-                  <div key={item.id} className="collapse-item">
-                    <Collapse content={item.content} title={item.title} />
-                  </div>
-                )
+                return <Collapse key={item.id} content={item.content} title={item.title} />
                 })}
           </div>
         </div>

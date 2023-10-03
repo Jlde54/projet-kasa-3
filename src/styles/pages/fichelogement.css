@@ -1,5 +1,22 @@
 .ficheLogement {
-    font-size: 50px;
-    text-align: center;
-    margin: 80px 0;
+    color: #ff6060;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    width: 100%;
+    margin: auto;
+}
+
+.ficheLogementDescription p {
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: rgb(244, 243, 243);
+    border-radius: 0 0 10px 10px;
+}
+
+@media (width <= 768px) {
+
+}
+
+@media (width <= 375px) {
+    
 }

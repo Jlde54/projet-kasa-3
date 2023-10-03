@@ -1,0 +1,119 @@
+.logementHeader {
+    display: flex;
+    margin-bottom: 1rem;
+    animation : fadein 1.5s;
+}
+
+.logementTitle {
+    flex-grow: 1;
+}
+
+.logementTitle h1 {
+    font-weight: 500;
+    margin-block: 0;
+    font-size: 36px;
+}
+
+.logementTitle p {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 0.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.logementTags {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.logementTags span {
+    background-color: #ff6060;
+    color: white;
+    padding: 0.2em 1em;
+    border-radius: 0.5rem;
+}
+
+.logementOwnerDetails  {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.logementOwnerDetails h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-weight: 500;
+}
+
+.logementOwnerBadge img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(220, 217, 217);
+}
+
+.logementOwnerStars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(220, 220, 220);
+}
+
+.logementOwnerStars .on {
+    color: #ff6060;
+}
+
+/* Mobile */
+@media (width <= 768px) {
+    .logementHeader {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .logementTitle h1{
+        font-size: 21px;
+        font-weight: 500;
+    }
+    .logementTitle p {
+        font-size: 15px;
+    }
+    .logementTags {
+        display: flex;
+        gap: 0.5rem;
+    }
+    .logementTags span {
+        font-size: 12px;
+        text-align: center;
+    }
+    .logementOwner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logementOwnerDetails {
+        order: 1;
+        gap: 0.3rem;
+        line-height: 100%;
+    }
+    .logementOwnerDetails h3 {
+        display: flex;
+        font-size: 12px;
+    }
+    .logementOwnerBadge img{
+        width: 35px;
+        height: 35px;
+    }
+    .logementOwnerStars {
+        font-size: 1.5rem;
+    }
+}
+
+@media (width <= 375px) {
+    .logementTitle h1 {
+          font-size: 18px;
+          padding-bottom: 0.3rem;
+    }
+    .logementTags span{
+          font-size: 10px;
+    }
+}

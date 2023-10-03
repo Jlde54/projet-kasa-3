@@ -3,17 +3,33 @@
     text-align: center;
     margin: 80px 0;
 }
-.collapse {
+.aproposDescription {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-bottom: 30px;
     justify-content: center;
     align-items: center;
+    padding-inline: 30px;
+    animation : fadein 2s;
 }
-.collapse .dropdown {
-      width: 90%;
+.aproposDescription .aproposDropdown {
+      width: 100%;
 }
-.collapse-item {
-    margin-top: 30px;
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@media (width <= 768px) {
+
+}
+
+@media (width <= 375px) {
+    
 }

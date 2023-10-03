@@ -18,3 +18,11 @@
     font-size: 18px;
     color: #FF6060;
 }
+
+@media (width <= 768px) {
+
+}
+
+@media (width <= 375px) {
+    
+}

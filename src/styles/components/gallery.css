@@ -27,3 +27,7 @@
         grid-template-columns: repeat(1, 100%);
     }
 }
+
+@media (width <= 768px) {
+
+}
