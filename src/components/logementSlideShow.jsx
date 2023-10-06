@@ -8,13 +8,8 @@ function SlideShow(props) {
     const slides = props.pictures
 
     const [currentIndex, setCurrentIndex] = useState(0)
-    // const [isOneSlide, setisOneSlide] = useState(0)
 
     const isOneSlide = slides.length === 1
-
-    // if (!slides.length === 1) {
-    //     setisOneSlide(!isOneSlide)
-    // }
 
     const goToPrevious = () => {
         const isFirstSlide = currentIndex === 0

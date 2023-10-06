@@ -9,7 +9,7 @@
 .ficheLogementDescription p {
     padding-left: 10px;
     padding-top: 10px;
-    background-color: rgb(244, 243, 243);
+    background-color: #F6F6F6;
     border-radius: 0 0 10px 10px;
 }
 
@@ -17,6 +17,6 @@
 
 }
 
-@media (width <= 375px) {
+@media (width <= 450px) {
     
 }

@@ -18,7 +18,9 @@
   }
   
 @media (width <= 768px) {
-
+  main {
+    margin: 35px;
+  }
 }
 
 @media (width <= 450px) {

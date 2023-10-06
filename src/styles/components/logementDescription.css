@@ -13,9 +13,15 @@
 }
 
 @media (width <= 768px) {
-
+    .ficheLogementDescription {
+        display: flex;
+        flex-direction: column;
+    }
+    .ficheLogemenDropdown {
+        width: 100%;
+    }
 }
 
-@media (width <= 375px) {
+@media (width <= 450px) {
     
 }

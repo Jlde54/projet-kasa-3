@@ -1,11 +1,9 @@
 .containerStyle {
     width: 100%;
-    height: 280px;
-    margin: 0 auto;
+    height: 415px;
     margin-bottom: 30px;
     animation : fadein 1s;
 }
-
 .sliderStyle {
     position: relative;
     height: 100%;
@@ -13,31 +11,28 @@
 .slideStyle {
     width: 100%;
     height: 100%;
-    border-radius: 10px;
-    background-size: cover;
-    background-position: center;
 }
-.slideStyle img{
+.slideStyle img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 25px;
 }
 .arrowStyle {
-    width: 30px;
+    width: 46px;
+    height: 80px;
     position: absolute;
-    top: 50%;
-    font-Size: 45px;
+    top: 40%;
     color: #fff;
     z-index: 1;
     cursor: pointer;
     filter: brightness(0) invert(1);
   }
 .rightArrowStyle {
-    right: 32px;
+    right: 23px;
   }
 .leftArrowStyle {
-    left: 32px;
+    left: 23px;
   }
 .slideCounter {
     position: absolute;
@@ -48,9 +43,21 @@
 }
 
 @media (width <= 768px) {
-
+    .containerStyle {
+        height: 340px;
+    }
 }
 
-@media (width <= 375px) {
-    
+@media (width <= 450px) {
+    .containerStyle {
+        height: 255px;
+    }
+    .slideStyle img {
+        border-radius: 10px;
+    }
+    .arrowStyle {
+        width: 12px;
+        height: 20px;
+        top: 45%;
+    }
 }
