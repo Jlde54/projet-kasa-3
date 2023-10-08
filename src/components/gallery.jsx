@@ -6,6 +6,10 @@ import Card from "./card"
 
 function Gallery() {
     return (
+        // -render a gallery with all apartments coming from the database JSON
+        // -for each apartment render an article which is "cliquable" 
+        //  to connect to the component "fichelogement/id"
+        // -The component "Card" is called with 2 parameters (an image and a title)
         <div className="gallery">
             {Logements.map((logement) => {
                 return (

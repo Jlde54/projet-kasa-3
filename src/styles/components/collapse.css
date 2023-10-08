@@ -13,9 +13,11 @@
     margin-right: 10px;
     margin-top: 5px;
     filter: brightness(0) invert(1);
+    /* linear rotation during 300ms*/
     transition: transform 0.3s linear;
 }
 .collapseTitle .rotate {
+    /* 180 deg rotation*/
     transform: rotate(180deg);
 }
 .collapseTitle h2 {
@@ -24,6 +26,7 @@
     padding: 0 15px;
 }
 .collapseToggle {
+    /* transition on the height during 300ms*/
     transition-property: height;
     transition-duration: 0.3s;
     overflow: hidden;
@@ -36,18 +39,7 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.collapseToggle .fadeIn {
-    animation : fadein 1s;
-}
 
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
 
 @media (width <= 768px) {
 

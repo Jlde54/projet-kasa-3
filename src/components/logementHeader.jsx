@@ -2,10 +2,12 @@ import React from 'react';
 import '../styles/components/logementHeader.css';
 
 function LogementHeader({ currentApartment }) {
-  
+      // host.name is split in an array called "name"
       const name = currentApartment.host.name.split(' ');
 
   return (
+      // -iteration with "map" on the tags and return, for each tag, a span element
+      // -a key is needed to identify uniquely an element in the list
       <div className="logementHeader">
             <div className='logementTitle'>
                   <h1>{currentApartment.title}</h1>
