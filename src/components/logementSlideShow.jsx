@@ -41,7 +41,6 @@ function SlideShow(props) {
         // -the image displayed is the one identified by currenIndex
         // -the arrows and the counter are displayed only if there are more than 1 slide in slides
         <div className="sliderStyle">
-            {/* <div className='slideStyle'> */}
             <div className='slideStyle'>
                 <img src={slides[currentIndex]} alt="Slide"></img>
             </div>
@@ -57,11 +56,8 @@ function SlideShow(props) {
             <div className="slideCounter">
                 {!isOneSlide ? <span className='slide_counter'>{currentIndex + 1} / {slides.length}</span> : ''}
             </div>
-            
         </div>
-
     )
-
 }
 
 export default SlideShow

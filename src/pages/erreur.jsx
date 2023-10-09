@@ -14,8 +14,6 @@ function Erreur() {
       </h2>
       <h3 className="error-link" onClick={() => navigate("/")}>
         Retourner sur la page d'accueil
-      {/* <h3 className="error-link">
-        <NavLink to="/">Retourner sur la page d'accueil</NavLink> */}
       </h3>
     </div>
   )
