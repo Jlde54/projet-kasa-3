@@ -5,7 +5,6 @@ import '../styles/pages/apropos.css'
 import Collapses from "../data/collapses.json"
 import Collapse from '../components/collapse'
 
-
 function Apropos() {
     return (
       <>

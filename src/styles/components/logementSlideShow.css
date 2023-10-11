@@ -60,4 +60,7 @@
         height: 20px;
         top: 45%;
     }
+    .slideCounter {
+        display: none;
+    }
 }
